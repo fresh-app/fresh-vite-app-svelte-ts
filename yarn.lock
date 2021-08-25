@@ -417,9 +417,9 @@ supports-color@^7.1.0:
     has-flag "^4.0.0"
 
 svelte-check@^2.1.0:
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/svelte-check/-/svelte-check-2.2.4.tgz#103140eeb4bbe65721e023ab210566041abe7224"
-  integrity sha512-eGEuZ3UEanOhlpQhICLjKejDxcZ9uYJlGnBGKAPW7uugolaBE6HpEBIiKFZN/TMRFFHQUURgGvsVn8/HJUBfeQ==
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/svelte-check/-/svelte-check-2.2.5.tgz#fc3d99494b38478dde6ba2060e8cbf5297e2025a"
+  integrity sha512-EstDoqxjqWStWELh7Z0qytqUDl/ikdNEr21dveNc4fUDnhnqO2F2jHEufqoNnC3GfBji3GIUHvoXsp/I5lMbCg==
   dependencies:
     chalk "^4.0.0"
     chokidar "^3.4.1"
@@ -447,9 +447,9 @@ svelte-preprocess@^4.0.0, svelte-preprocess@^4.7.2:
     strip-indent "^3.0.0"
 
 svelte@^3.37.0:
-  version "3.42.2"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.42.2.tgz#0246c175c820c1aeca07300c48573a15aae3c1e4"
-  integrity sha512-FOyNYKXb8wdE0Ot+Ctt2/OyDLsNBP8+V6PUE9ag6ZKeLslIou0LnMu1fhtWUA+HjzKTbAM1yj+4PFLtg/3pMJA==
+  version "3.42.3"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.42.3.tgz#a7687a43ff6aa12263e03cf56219cd21eff5372d"
+  integrity sha512-pbdtdNZEx2GBqSM6XEgPoHbwtvWBwFLt/1bRmzsyXZO+i424wFnPe7O5B3GOJDPFSxPRztumAW3mL5LPzecWUg==
 
 to-regex-range@^5.0.1:
   version "5.0.1"
@@ -469,9 +469,9 @@ typescript@*, typescript@^4.3.2:
   integrity sha512-DqQgihaQ9cUrskJo9kIyW/+g0Vxsk8cDtZ52a3NGh0YNTfpUSArXSohyUGnvbPazEPLu398C0UxmKSOrPumUzA==
 
 vite@^2.4.4:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-2.5.0.tgz#111ba3679432d426e44566acf480005a7914cbd6"
-  integrity sha512-Dn4B+g54PJsMG5WCc4QeFy1ygMXRdTtFrUPegqfk4+vzVQcbF/DqqmI/1bxezArzbujBJg/67QeT5wz8edfJVQ==
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-2.5.1.tgz#953c71a034c07b3ae0448d57664ec9c6862f23a8"
+  integrity sha512-FwmLbbz8MB1pBs9dKoRDgpiqoijif8hSK1+NNUYc12/cnf+pM2UFhhQ1rcpXgbMhm/5c2USZdVAf0FSkSxaFDA==
   dependencies:
     esbuild "^0.12.17"
     postcss "^8.3.6"
