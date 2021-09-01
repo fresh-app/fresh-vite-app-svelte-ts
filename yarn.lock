@@ -28,9 +28,9 @@
   integrity sha512-aqkICXbM1oX5FfgZd2qSSAGdyo/NRxjWCamxoyi3T8iVQnzGge19HhDYzZ6NrVOW7bhcWNSq9XexWFtMzbB24A==
 
 "@types/node@*":
-  version "16.7.8"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.7.8.tgz#2448be5f24fe6b77114632b6350fcd219334651e"
-  integrity sha512-8upnoQU0OPzbIkm+ZMM0zCeFCkw2s3mS0IWdx0+AAaWqm4fkBb0UJp8Edl7FVKRamYbpJC/aVsHpKWBIbiC7Zg==
+  version "16.7.10"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.7.10.tgz#7aa732cc47341c12a16b7d562f519c2383b6d4fc"
+  integrity sha512-S63Dlv4zIPb8x6MMTgDq5WWRJQe56iBEY0O3SOFA9JrRienkOVDXSXBjjJw6HTNQYSE2JI6GMCR6LVbIMHJVvA==
 
 "@types/pug@^2.0.4":
   version "2.0.5"
@@ -468,10 +468,10 @@ typescript@*, typescript@^4.3.2:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.4.2.tgz#6d618640d430e3569a1dfb44f7d7e600ced3ee86"
   integrity sha512-gzP+t5W4hdy4c+68bfcv0t400HVJMMd2+H9B7gae1nQlBzCqvrXX+6GL/b3GAgyTH966pzrZ70/fRjwAtZksSQ==
 
-vite@^2.5.1:
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-2.5.1.tgz#953c71a034c07b3ae0448d57664ec9c6862f23a8"
-  integrity sha512-FwmLbbz8MB1pBs9dKoRDgpiqoijif8hSK1+NNUYc12/cnf+pM2UFhhQ1rcpXgbMhm/5c2USZdVAf0FSkSxaFDA==
+vite@^2.5.2:
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-2.5.2.tgz#3963a4ec1e6ecae49359eddfdd67f6cb1e6e07a1"
+  integrity sha512-JK5uhiVyMqHiAJbgBa8rCvpP8bEhAE9dKDv1gCmP+EUP2FSPmEeW3WXlCXauPB3MDa8behPW+ntyNXqnGaxslg==
   dependencies:
     esbuild "^0.12.17"
     postcss "^8.3.6"
