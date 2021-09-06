@@ -11,9 +11,9 @@
     picomatch "^2.2.2"
 
 "@sveltejs/vite-plugin-svelte@^1.0.0-next.11":
-  version "1.0.0-next.21"
-  resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-1.0.0-next.21.tgz#57b9c27e27640e58c2ea7bb6b1263ce0a0c66ae1"
-  integrity sha512-JjPnoQoI1+VXHjguE1bWyFYdZvPN6VTZ5RsFRpju45zICas1N5jAuOqKTbhQ1G+eEMCbhhB6zjZgQQRtaXPhNQ==
+  version "1.0.0-next.22"
+  resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-1.0.0-next.22.tgz#0b988f261bc2de8193a7c281a4750134963de1cc"
+  integrity sha512-B1O/GMIxpE4iJ3/FBUJ3oYGKHhJ99G9uFARsb8kVeReLDPhtZGXTM+7brLDefJuedbKkRkGEEkbGOVuEuEBo3g==
   dependencies:
     "@rollup/pluginutils" "^4.1.1"
     debug "^4.3.2"
@@ -486,9 +486,9 @@ svelte-hmr@^0.14.7:
   integrity sha512-pDrzgcWSoMaK6AJkBWkmgIsecW0GChxYZSZieIYfCP0v2oPyx2CYU/zm7TBIcjLVUPP714WxmViE9Thht4etog==
 
 svelte-preprocess@^4.0.0, svelte-preprocess@^4.7.2:
-  version "4.9.0"
-  resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-4.9.0.tgz#ff16b9f247aed23f153dfd38a5c7520fccb0c46c"
-  integrity sha512-9eMgTn6qOe9z/q4rSXO1G3vXudOAJC54q7QL4s0e5qZ/94Hqca/aVLyL0FUwt1Q52Hq9WGJ4oxQK/DIArcDeAA==
+  version "4.9.1"
+  resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-4.9.1.tgz#6b5a43b6f7851c64f721d72249689e82ee288191"
+  integrity sha512-nNGilNME8T7a1Yuisdo6MDfpVxHURR4Vj9rGsgdd1EfoS7H+8SF3qaVE92aJQt2IhTB7+BshBqBLeVP080gnpg==
   dependencies:
     "@types/pug" "^2.0.4"
     "@types/sass" "^1.16.0"
