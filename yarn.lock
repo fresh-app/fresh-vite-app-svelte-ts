@@ -568,9 +568,9 @@ rimraf@^2.5.2:
     glob "^7.1.3"
 
 rollup@^2.57.0:
-  version "2.58.3"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.58.3.tgz#71a08138d9515fb65043b6a18618b2ed9ac8d239"
-  integrity sha512-ei27MSw1KhRur4p87Q0/Va2NAYqMXOX++FNEumMBcdreIRLURKy+cE2wcDJKBn0nfmhP2ZGrJkP1XPO+G8FJQw==
+  version "2.59.0"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.59.0.tgz#108c61b0fa0a37ebc8d1f164f281622056f0db59"
+  integrity sha512-l7s90JQhCQ6JyZjKgo7Lq1dKh2RxatOM+Jr6a9F7WbS9WgKbocyUSeLmZl8evAse7y96Ae98L2k1cBOwWD8nHw==
   optionalDependencies:
     fsevents "~2.3.2"
 
@@ -670,9 +670,9 @@ svelte-preprocess@^4.0.0, svelte-preprocess@^4.7.2:
     strip-indent "^3.0.0"
 
 svelte@^3.37.0:
-  version "3.44.0"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.44.0.tgz#e6176cb3ad93846ddb4140e93f43098136b23f3b"
-  integrity sha512-zWACSJBSncGiDvFfYOMFGNV5zDLOlyhftmO5yOZ0lEtQMptpElaRtl39MWz1+lYCpwUq4F3Q2lTzI9TrTL+eMA==
+  version "3.44.1"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.44.1.tgz#5cc772a8340f4519a4ecd1ac1a842325466b1a63"
+  integrity sha512-4DrCEJoBvdR689efHNSxIQn2pnFwB7E7j2yLEJtHE/P8hxwZWIphCtJ8are7bjl/iVMlcEf5uh5pJ68IwR09vQ==
 
 to-regex-range@^5.0.1:
   version "5.0.1"
