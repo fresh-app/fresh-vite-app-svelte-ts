@@ -50,16 +50,16 @@
     picomatch "^2.2.2"
 
 "@sveltejs/vite-plugin-svelte@^1.0.0-next.30":
-  version "1.0.0-next.45"
-  resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-1.0.0-next.45.tgz#de3a205a20f93c9b94c5a9bc272fd2db61efba62"
-  integrity sha512-WLschM2qpa4lSpKR4zTVDJ2AW48u3Gjs3BX5s6aZvLRC3bjBjKcOcGmOG9pLu07C869wdMwZFZ+GroVcx7ZKpw==
+  version "1.0.0-next.46"
+  resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-1.0.0-next.46.tgz#5b6936a8629e5fcb954589d73a50b781fe04bd24"
+  integrity sha512-dumtaI5XusnDgXoQ3vxQAdoCaTWf8zKVezJdiTGjuaS/GSsmLIvtHUvMt0NlwEikPQ/hL53eIzMliRQ/j35w9w==
   dependencies:
     "@rollup/pluginutils" "^4.2.1"
     debug "^4.3.4"
     deepmerge "^4.2.2"
     kleur "^4.1.4"
     magic-string "^0.26.2"
-    svelte-hmr "^0.14.11"
+    svelte-hmr "^0.14.12"
 
 "@tsconfig/svelte@^2.0.1":
   version "2.0.1"
@@ -656,7 +656,7 @@ svelte-check@^2.2.7:
     svelte-preprocess "^4.0.0"
     typescript "*"
 
-svelte-hmr@^0.14.11:
+svelte-hmr@^0.14.12:
   version "0.14.12"
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.14.12.tgz#a127aec02f1896500b10148b2d4d21ddde39973f"
   integrity sha512-4QSW/VvXuqVcFZ+RhxiR8/newmwOCTlbYIezvkeN6302YFRE8cXy0naamHcjz8Y9Ce3ITTZtrHrIL0AGfyo61w==
