@@ -9,25 +9,25 @@ importers:
   .:
     devDependencies:
       '@sveltejs/vite-plugin-svelte':
-        specifier: ^3.0.2
+        specifier: ^3.1.1
         version: 3.1.1(svelte@4.2.18)(vite@5.3.1)
       '@tsconfig/svelte':
-        specifier: ^5.0.2
+        specifier: ^5.0.4
         version: 5.0.4
       svelte:
-        specifier: ^4.2.12
+        specifier: ^4.2.18
         version: 4.2.18
       svelte-check:
-        specifier: ^3.6.7
+        specifier: ^3.8.1
         version: 3.8.1(postcss@8.4.38)(svelte@4.2.18)
       tslib:
-        specifier: ^2.6.2
+        specifier: ^2.6.3
         version: 2.6.3
       typescript:
         specifier: ^5.2.2
         version: 5.5.2
       vite:
-        specifier: ^5.2.0
+        specifier: ^5.3.1
         version: 5.3.1
 
 packages:
