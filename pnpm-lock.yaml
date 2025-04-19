@@ -10,22 +10,22 @@ importers:
     devDependencies:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^5.0.3
-        version: 5.0.3(svelte@5.27.2)(vite@6.3.1)
+        version: 5.0.3(svelte@5.28.1)(vite@6.3.2)
       '@tsconfig/svelte':
         specifier: ^5.0.4
         version: 5.0.4
       svelte:
         specifier: ^5.23.1
-        version: 5.27.2
+        version: 5.28.1
       svelte-check:
         specifier: ^4.1.5
-        version: 4.1.6(picomatch@4.0.2)(svelte@5.27.2)(typescript@5.7.3)
+        version: 4.1.6(picomatch@4.0.2)(svelte@5.28.1)(typescript@5.7.3)
       typescript:
         specifier: ~5.7.2
         version: 5.7.3
       vite:
         specifier: ^6.3.1
-        version: 6.3.1
+        version: 6.3.2
 
 packages:
 
@@ -446,8 +446,8 @@ packages:
       svelte: ^4.0.0 || ^5.0.0-next.0
       typescript: '>=5.0.0'
 
-  svelte@5.27.2:
-    resolution: {integrity: sha512-WQigWAJSONxMfIYFBnnKXf5s+TcXbktLsZ+HMLfjhjSHOW9C0OV9TmPPTxVdbxs5tuiS8iQecCxLTHpdgWwgiA==}
+  svelte@5.28.1:
+    resolution: {integrity: sha512-iOa9WmfNG95lSOSJdMhdjJ4Afok7IRAQYXpbnxhd5EINnXseG0GVa9j6WPght4eX78XfFez45Fi+uRglGKPV/Q==}
     engines: {node: '>=18'}
 
   tinyglobby@0.2.12:
@@ -459,8 +459,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  vite@6.3.1:
-    resolution: {integrity: sha512-kkzzkqtMESYklo96HKKPE5KKLkC1amlsqt+RjFMlX2AvbRB/0wghap19NdBxxwGZ+h/C6DLCrcEphPIItlGrRQ==}
+  vite@6.3.2:
+    resolution: {integrity: sha512-ZSvGOXKGceizRQIZSz7TGJ0pS3QLlVY/9hwxVh17W3re67je1RKYzFHivZ/t0tubU78Vkyb9WnHPENSBCzbckg==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -673,25 +673,25 @@ snapshots:
     dependencies:
       acorn: 8.14.1
 
-  '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.27.2)(vite@6.3.1))(svelte@5.27.2)(vite@6.3.1)':
+  '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.28.1)(vite@6.3.2))(svelte@5.28.1)(vite@6.3.2)':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.27.2)(vite@6.3.1)
+      '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.28.1)(vite@6.3.2)
       debug: 4.4.0
-      svelte: 5.27.2
-      vite: 6.3.1
+      svelte: 5.28.1
+      vite: 6.3.2
     transitivePeerDependencies:
       - supports-color
 
-  '@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.27.2)(vite@6.3.1)':
+  '@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.28.1)(vite@6.3.2)':
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.27.2)(vite@6.3.1))(svelte@5.27.2)(vite@6.3.1)
+      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.28.1)(vite@6.3.2))(svelte@5.28.1)(vite@6.3.2)
       debug: 4.4.0
       deepmerge: 4.3.1
       kleur: 4.1.5
       magic-string: 0.30.17
-      svelte: 5.27.2
-      vite: 6.3.1
-      vitefu: 1.0.6(vite@6.3.1)
+      svelte: 5.28.1
+      vite: 6.3.2
+      vitefu: 1.0.6(vite@6.3.2)
     transitivePeerDependencies:
       - supports-color
 
@@ -820,19 +820,19 @@ snapshots:
 
   source-map-js@1.2.1: {}
 
-  svelte-check@4.1.6(picomatch@4.0.2)(svelte@5.27.2)(typescript@5.7.3):
+  svelte-check@4.1.6(picomatch@4.0.2)(svelte@5.28.1)(typescript@5.7.3):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
       chokidar: 4.0.3
       fdir: 6.4.3(picomatch@4.0.2)
       picocolors: 1.1.1
       sade: 1.8.1
-      svelte: 5.27.2
+      svelte: 5.28.1
       typescript: 5.7.3
     transitivePeerDependencies:
       - picomatch
 
-  svelte@5.27.2:
+  svelte@5.28.1:
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@jridgewell/sourcemap-codec': 1.5.0
@@ -856,7 +856,7 @@ snapshots:
 
   typescript@5.7.3: {}
 
-  vite@6.3.1:
+  vite@6.3.2:
     dependencies:
       esbuild: 0.25.2
       fdir: 6.4.3(picomatch@4.0.2)
@@ -867,8 +867,8 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  vitefu@1.0.6(vite@6.3.1):
+  vitefu@1.0.6(vite@6.3.2):
     optionalDependencies:
-      vite: 6.3.1
+      vite: 6.3.2
 
   zimmerframe@1.1.2: {}
