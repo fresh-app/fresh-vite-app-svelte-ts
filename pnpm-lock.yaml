@@ -9,23 +9,23 @@ importers:
   .:
     devDependencies:
       '@sveltejs/vite-plugin-svelte':
-        specifier: ^6.1.1
-        version: 6.2.0(svelte@5.39.1)(vite@7.1.5)
+        specifier: ^6.2.0
+        version: 6.2.0(svelte@5.39.2)(vite@7.1.6)
       '@tsconfig/svelte':
-        specifier: ^5.0.4
+        specifier: ^5.0.5
         version: 5.0.5
       svelte:
-        specifier: ^5.38.1
-        version: 5.39.1
+        specifier: ^5.38.10
+        version: 5.39.2
       svelte-check:
         specifier: ^4.3.1
-        version: 4.3.1(picomatch@4.0.3)(svelte@5.39.1)(typescript@5.8.3)
+        version: 4.3.1(picomatch@4.0.3)(svelte@5.39.2)(typescript@5.8.3)
       typescript:
         specifier: ~5.8.3
         version: 5.8.3
       vite:
-        specifier: ^7.1.2
-        version: 7.1.5
+        specifier: ^7.1.6
+        version: 7.1.6
 
 packages:
 
@@ -448,8 +448,8 @@ packages:
       svelte: ^4.0.0 || ^5.0.0-next.0
       typescript: '>=5.0.0'
 
-  svelte@5.39.1:
-    resolution: {integrity: sha512-48D9M90Vj1f1/ys8oLS1UCCREywD8Qk3Sq0JlIwlVZrOTP5EHG9WKgXKq7upBNN2pyDBsdNz9EAWMNf5CTOymA==}
+  svelte@5.39.2:
+    resolution: {integrity: sha512-x4Me4TgiNprpLugcXyKbcGQhHdjWpITZzSeegv3jjIyA4jObVKBhNchGGDv257Eeolg3vUUSa4n2HGFMYNaPvg==}
     engines: {node: '>=18'}
 
   tinyglobby@0.2.15:
@@ -461,8 +461,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  vite@7.1.5:
-    resolution: {integrity: sha512-4cKBO9wR75r0BeIWWWId9XK9Lj6La5X846Zw9dFfzMRw38IlTk2iCcUt6hsyiDRcPidc55ZParFYDXi0nXOeLQ==}
+  vite@7.1.6:
+    resolution: {integrity: sha512-SRYIB8t/isTwNn8vMB3MR6E+EQZM/WG1aKmmIUCfDXfVvKfc20ZpamngWHKzAmmu9ppsgxsg4b2I7c90JZudIQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -678,24 +678,24 @@ snapshots:
     dependencies:
       acorn: 8.15.0
 
-  '@sveltejs/vite-plugin-svelte-inspector@5.0.1(@sveltejs/vite-plugin-svelte@6.2.0(svelte@5.39.1)(vite@7.1.5))(svelte@5.39.1)(vite@7.1.5)':
+  '@sveltejs/vite-plugin-svelte-inspector@5.0.1(@sveltejs/vite-plugin-svelte@6.2.0(svelte@5.39.2)(vite@7.1.6))(svelte@5.39.2)(vite@7.1.6)':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 6.2.0(svelte@5.39.1)(vite@7.1.5)
+      '@sveltejs/vite-plugin-svelte': 6.2.0(svelte@5.39.2)(vite@7.1.6)
       debug: 4.4.3
-      svelte: 5.39.1
-      vite: 7.1.5
+      svelte: 5.39.2
+      vite: 7.1.6
     transitivePeerDependencies:
       - supports-color
 
-  '@sveltejs/vite-plugin-svelte@6.2.0(svelte@5.39.1)(vite@7.1.5)':
+  '@sveltejs/vite-plugin-svelte@6.2.0(svelte@5.39.2)(vite@7.1.6)':
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 5.0.1(@sveltejs/vite-plugin-svelte@6.2.0(svelte@5.39.1)(vite@7.1.5))(svelte@5.39.1)(vite@7.1.5)
+      '@sveltejs/vite-plugin-svelte-inspector': 5.0.1(@sveltejs/vite-plugin-svelte@6.2.0(svelte@5.39.2)(vite@7.1.6))(svelte@5.39.2)(vite@7.1.6)
       debug: 4.4.3
       deepmerge: 4.3.1
       magic-string: 0.30.19
-      svelte: 5.39.1
-      vite: 7.1.5
-      vitefu: 1.1.1(vite@7.1.5)
+      svelte: 5.39.2
+      vite: 7.1.6
+      vitefu: 1.1.1(vite@7.1.6)
     transitivePeerDependencies:
       - supports-color
 
@@ -824,19 +824,19 @@ snapshots:
 
   source-map-js@1.2.1: {}
 
-  svelte-check@4.3.1(picomatch@4.0.3)(svelte@5.39.1)(typescript@5.8.3):
+  svelte-check@4.3.1(picomatch@4.0.3)(svelte@5.39.2)(typescript@5.8.3):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
       chokidar: 4.0.3
       fdir: 6.5.0(picomatch@4.0.3)
       picocolors: 1.1.1
       sade: 1.8.1
-      svelte: 5.39.1
+      svelte: 5.39.2
       typescript: 5.8.3
     transitivePeerDependencies:
       - picomatch
 
-  svelte@5.39.1:
+  svelte@5.39.2:
     dependencies:
       '@jridgewell/remapping': 2.3.5
       '@jridgewell/sourcemap-codec': 1.5.5
@@ -860,7 +860,7 @@ snapshots:
 
   typescript@5.8.3: {}
 
-  vite@7.1.5:
+  vite@7.1.6:
     dependencies:
       esbuild: 0.25.10
       fdir: 6.5.0(picomatch@4.0.3)
@@ -871,8 +871,8 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  vitefu@1.1.1(vite@7.1.5):
+  vitefu@1.1.1(vite@7.1.6):
     optionalDependencies:
-      vite: 7.1.5
+      vite: 7.1.6
 
   zimmerframe@1.1.4: {}
