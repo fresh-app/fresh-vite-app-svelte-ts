@@ -10,7 +10,7 @@ importers:
     devDependencies:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^6.2.1
-        version: 6.2.1(svelte@5.41.3)(vite@7.1.12(@types/node@24.9.1))
+        version: 6.2.1(svelte@5.41.4)(vite@7.1.12(@types/node@24.9.1))
       '@tsconfig/svelte':
         specifier: ^5.0.5
         version: 5.0.5
@@ -19,10 +19,10 @@ importers:
         version: 24.9.1
       svelte:
         specifier: ^5.39.6
-        version: 5.41.3
+        version: 5.41.4
       svelte-check:
         specifier: ^4.3.2
-        version: 4.3.3(picomatch@4.0.3)(svelte@5.41.3)(typescript@5.9.3)
+        version: 4.3.3(picomatch@4.0.3)(svelte@5.41.4)(typescript@5.9.3)
       typescript:
         specifier: ~5.9.3
         version: 5.9.3
@@ -408,8 +408,8 @@ packages:
   locate-character@3.0.0:
     resolution: {integrity: sha512-SW13ws7BjaeJ6p7Q6CO2nchbYEc3X3J6WrmTTDto7yMPqVSZTUyY5Tjbid+Ab8gLnATtygYtiDIJGQRRn2ZOiA==}
 
-  magic-string@0.30.19:
-    resolution: {integrity: sha512-2N21sPY9Ws53PZvsEpVtNuSW+ScYbQdp4b9qUaL+9QkHUrGFKo56Lg9Emg5s9V/qrtNBmiR01sYhUOwu3H+VOw==}
+  magic-string@0.30.21:
+    resolution: {integrity: sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==}
 
   mri@1.2.0:
     resolution: {integrity: sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA==}
@@ -459,8 +459,8 @@ packages:
       svelte: ^4.0.0 || ^5.0.0-next.0
       typescript: '>=5.0.0'
 
-  svelte@5.41.3:
-    resolution: {integrity: sha512-bkHg+whEnVVNcK3XP8Dy4NHujn5mU/+at9z09PXM5THKm+E73AwiKFoRMMTfyAzAj1yExKtudvGHq8UqOh8kMQ==}
+  svelte@5.41.4:
+    resolution: {integrity: sha512-sBrVmskY0eij5+CSSuMK1kOk1xSiRh0BRTEhUnxnd1x3p42GbQmm4rwq4WMD23rUG3QR53Nfv8kpaER3tV5F4A==}
     engines: {node: '>=18'}
 
   tinyglobby@0.2.15:
@@ -695,22 +695,22 @@ snapshots:
     dependencies:
       acorn: 8.15.0
 
-  '@sveltejs/vite-plugin-svelte-inspector@5.0.1(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.41.3)(vite@7.1.12(@types/node@24.9.1)))(svelte@5.41.3)(vite@7.1.12(@types/node@24.9.1))':
+  '@sveltejs/vite-plugin-svelte-inspector@5.0.1(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.41.4)(vite@7.1.12(@types/node@24.9.1)))(svelte@5.41.4)(vite@7.1.12(@types/node@24.9.1))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 6.2.1(svelte@5.41.3)(vite@7.1.12(@types/node@24.9.1))
+      '@sveltejs/vite-plugin-svelte': 6.2.1(svelte@5.41.4)(vite@7.1.12(@types/node@24.9.1))
       debug: 4.4.3
-      svelte: 5.41.3
+      svelte: 5.41.4
       vite: 7.1.12(@types/node@24.9.1)
     transitivePeerDependencies:
       - supports-color
 
-  '@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.41.3)(vite@7.1.12(@types/node@24.9.1))':
+  '@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.41.4)(vite@7.1.12(@types/node@24.9.1))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 5.0.1(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.41.3)(vite@7.1.12(@types/node@24.9.1)))(svelte@5.41.3)(vite@7.1.12(@types/node@24.9.1))
+      '@sveltejs/vite-plugin-svelte-inspector': 5.0.1(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.41.4)(vite@7.1.12(@types/node@24.9.1)))(svelte@5.41.4)(vite@7.1.12(@types/node@24.9.1))
       debug: 4.4.3
       deepmerge: 4.3.1
-      magic-string: 0.30.19
-      svelte: 5.41.3
+      magic-string: 0.30.21
+      svelte: 5.41.4
       vite: 7.1.12(@types/node@24.9.1)
       vitefu: 1.1.1(vite@7.1.12(@types/node@24.9.1))
     transitivePeerDependencies:
@@ -790,7 +790,7 @@ snapshots:
 
   locate-character@3.0.0: {}
 
-  magic-string@0.30.19:
+  magic-string@0.30.21:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.5
 
@@ -846,19 +846,19 @@ snapshots:
 
   source-map-js@1.2.1: {}
 
-  svelte-check@4.3.3(picomatch@4.0.3)(svelte@5.41.3)(typescript@5.9.3):
+  svelte-check@4.3.3(picomatch@4.0.3)(svelte@5.41.4)(typescript@5.9.3):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
       chokidar: 4.0.3
       fdir: 6.5.0(picomatch@4.0.3)
       picocolors: 1.1.1
       sade: 1.8.1
-      svelte: 5.41.3
+      svelte: 5.41.4
       typescript: 5.9.3
     transitivePeerDependencies:
       - picomatch
 
-  svelte@5.41.3:
+  svelte@5.41.4:
     dependencies:
       '@jridgewell/remapping': 2.3.5
       '@jridgewell/sourcemap-codec': 1.5.5
@@ -872,7 +872,7 @@ snapshots:
       esrap: 2.1.0
       is-reference: 3.0.3
       locate-character: 3.0.0
-      magic-string: 0.30.19
+      magic-string: 0.30.21
       zimmerframe: 1.1.4
 
   tinyglobby@0.2.15:
