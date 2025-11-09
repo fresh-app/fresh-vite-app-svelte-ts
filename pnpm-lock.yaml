@@ -10,7 +10,7 @@ importers:
     devDependencies:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^6.2.1
-        version: 6.2.1(svelte@5.43.4)(vite@7.2.2(@types/node@24.10.0))
+        version: 6.2.1(svelte@5.43.5)(vite@7.2.2(@types/node@24.10.0))
       '@tsconfig/svelte':
         specifier: ^5.0.5
         version: 5.0.5
@@ -19,10 +19,10 @@ importers:
         version: 24.10.0
       svelte:
         specifier: ^5.39.6
-        version: 5.43.4
+        version: 5.43.5
       svelte-check:
         specifier: ^4.3.2
-        version: 4.3.3(picomatch@4.0.3)(svelte@5.43.4)(typescript@5.9.3)
+        version: 4.3.3(picomatch@4.0.3)(svelte@5.43.5)(typescript@5.9.3)
       typescript:
         specifier: ~5.9.3
         version: 5.9.3
@@ -459,8 +459,8 @@ packages:
       svelte: ^4.0.0 || ^5.0.0-next.0
       typescript: '>=5.0.0'
 
-  svelte@5.43.4:
-    resolution: {integrity: sha512-tPNp21nDWB0PSHE+VrTvEy9cFtDp2Q+ATxQoFomISEVdikZ1QZ69UqBPz/LlT+Oc8/LYS/COYwDQZrmZEUr+JQ==}
+  svelte@5.43.5:
+    resolution: {integrity: sha512-HQoZArIewxQVNedseDsgMgnRSC4XOXczxXLF9rOJaPIJkg58INOPUiL8aEtzqZIXNSZJyw8NmqObwg/voajiHQ==}
     engines: {node: '>=18'}
 
   tinyglobby@0.2.15:
@@ -695,22 +695,22 @@ snapshots:
     dependencies:
       acorn: 8.15.0
 
-  '@sveltejs/vite-plugin-svelte-inspector@5.0.1(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.43.4)(vite@7.2.2(@types/node@24.10.0)))(svelte@5.43.4)(vite@7.2.2(@types/node@24.10.0))':
+  '@sveltejs/vite-plugin-svelte-inspector@5.0.1(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.43.5)(vite@7.2.2(@types/node@24.10.0)))(svelte@5.43.5)(vite@7.2.2(@types/node@24.10.0))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 6.2.1(svelte@5.43.4)(vite@7.2.2(@types/node@24.10.0))
+      '@sveltejs/vite-plugin-svelte': 6.2.1(svelte@5.43.5)(vite@7.2.2(@types/node@24.10.0))
       debug: 4.4.3
-      svelte: 5.43.4
+      svelte: 5.43.5
       vite: 7.2.2(@types/node@24.10.0)
     transitivePeerDependencies:
       - supports-color
 
-  '@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.43.4)(vite@7.2.2(@types/node@24.10.0))':
+  '@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.43.5)(vite@7.2.2(@types/node@24.10.0))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 5.0.1(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.43.4)(vite@7.2.2(@types/node@24.10.0)))(svelte@5.43.4)(vite@7.2.2(@types/node@24.10.0))
+      '@sveltejs/vite-plugin-svelte-inspector': 5.0.1(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.43.5)(vite@7.2.2(@types/node@24.10.0)))(svelte@5.43.5)(vite@7.2.2(@types/node@24.10.0))
       debug: 4.4.3
       deepmerge: 4.3.1
       magic-string: 0.30.21
-      svelte: 5.43.4
+      svelte: 5.43.5
       vite: 7.2.2(@types/node@24.10.0)
       vitefu: 1.1.1(vite@7.2.2(@types/node@24.10.0))
     transitivePeerDependencies:
@@ -846,19 +846,19 @@ snapshots:
 
   source-map-js@1.2.1: {}
 
-  svelte-check@4.3.3(picomatch@4.0.3)(svelte@5.43.4)(typescript@5.9.3):
+  svelte-check@4.3.3(picomatch@4.0.3)(svelte@5.43.5)(typescript@5.9.3):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
       chokidar: 4.0.3
       fdir: 6.5.0(picomatch@4.0.3)
       picocolors: 1.1.1
       sade: 1.8.1
-      svelte: 5.43.4
+      svelte: 5.43.5
       typescript: 5.9.3
     transitivePeerDependencies:
       - picomatch
 
-  svelte@5.43.4:
+  svelte@5.43.5:
     dependencies:
       '@jridgewell/remapping': 2.3.5
       '@jridgewell/sourcemap-codec': 1.5.5
