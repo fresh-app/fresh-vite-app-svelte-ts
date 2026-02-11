@@ -10,13 +10,13 @@ importers:
     devDependencies:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^6.2.1
-        version: 6.2.4(svelte@5.50.1)(vite@7.3.1(@types/node@24.10.12))
+        version: 6.2.4(svelte@5.50.1)(vite@7.3.1(@types/node@24.10.13))
       '@tsconfig/svelte':
         specifier: ^5.0.6
         version: 5.0.7
       '@types/node':
         specifier: ^24.10.1
-        version: 24.10.12
+        version: 24.10.13
       svelte:
         specifier: ^5.45.2
         version: 5.50.1
@@ -28,7 +28,7 @@ importers:
         version: 5.9.3
       vite:
         specifier: ^7.3.1
-        version: 7.3.1(@types/node@24.10.12)
+        version: 7.3.1(@types/node@24.10.13)
 
 packages:
 
@@ -368,8 +368,8 @@ packages:
   '@types/estree@1.0.8':
     resolution: {integrity: sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==}
 
-  '@types/node@24.10.12':
-    resolution: {integrity: sha512-68e+T28EbdmLSTkPgs3+UacC6rzmqrcWFPQs1C8mwJhI/r5Uxr0yEuQotczNRROd1gq30NGxee+fo0rSIxpyAw==}
+  '@types/node@24.10.13':
+    resolution: {integrity: sha512-oH72nZRfDv9lADUBSo104Aq7gPHpQZc4BTx38r9xf9pg5LfP6EzSyH2n7qFmmxRQXh7YlUXODcYsg6PuTDSxGg==}
 
   acorn@8.15.0:
     resolution: {integrity: sha512-NZyJarBfL7nWwIq+FDL6Zp/yHEhePMNnnJ0y3qfieCrmNvYct8uvtiV41UvlSe6apAfk0fY1FbWx+NwfmpvtTg==}
@@ -726,28 +726,28 @@ snapshots:
     dependencies:
       acorn: 8.15.0
 
-  '@sveltejs/vite-plugin-svelte-inspector@5.0.2(@sveltejs/vite-plugin-svelte@6.2.4(svelte@5.50.1)(vite@7.3.1(@types/node@24.10.12)))(svelte@5.50.1)(vite@7.3.1(@types/node@24.10.12))':
+  '@sveltejs/vite-plugin-svelte-inspector@5.0.2(@sveltejs/vite-plugin-svelte@6.2.4(svelte@5.50.1)(vite@7.3.1(@types/node@24.10.13)))(svelte@5.50.1)(vite@7.3.1(@types/node@24.10.13))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 6.2.4(svelte@5.50.1)(vite@7.3.1(@types/node@24.10.12))
+      '@sveltejs/vite-plugin-svelte': 6.2.4(svelte@5.50.1)(vite@7.3.1(@types/node@24.10.13))
       obug: 2.1.1
       svelte: 5.50.1
-      vite: 7.3.1(@types/node@24.10.12)
+      vite: 7.3.1(@types/node@24.10.13)
 
-  '@sveltejs/vite-plugin-svelte@6.2.4(svelte@5.50.1)(vite@7.3.1(@types/node@24.10.12))':
+  '@sveltejs/vite-plugin-svelte@6.2.4(svelte@5.50.1)(vite@7.3.1(@types/node@24.10.13))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 5.0.2(@sveltejs/vite-plugin-svelte@6.2.4(svelte@5.50.1)(vite@7.3.1(@types/node@24.10.12)))(svelte@5.50.1)(vite@7.3.1(@types/node@24.10.12))
+      '@sveltejs/vite-plugin-svelte-inspector': 5.0.2(@sveltejs/vite-plugin-svelte@6.2.4(svelte@5.50.1)(vite@7.3.1(@types/node@24.10.13)))(svelte@5.50.1)(vite@7.3.1(@types/node@24.10.13))
       deepmerge: 4.3.1
       magic-string: 0.30.21
       obug: 2.1.1
       svelte: 5.50.1
-      vite: 7.3.1(@types/node@24.10.12)
-      vitefu: 1.1.1(vite@7.3.1(@types/node@24.10.12))
+      vite: 7.3.1(@types/node@24.10.13)
+      vitefu: 1.1.1(vite@7.3.1(@types/node@24.10.13))
 
   '@tsconfig/svelte@5.0.7': {}
 
   '@types/estree@1.0.8': {}
 
-  '@types/node@24.10.12':
+  '@types/node@24.10.13':
     dependencies:
       undici-types: 7.16.0
 
@@ -913,7 +913,7 @@ snapshots:
 
   undici-types@7.16.0: {}
 
-  vite@7.3.1(@types/node@24.10.12):
+  vite@7.3.1(@types/node@24.10.13):
     dependencies:
       esbuild: 0.27.3
       fdir: 6.5.0(picomatch@4.0.3)
@@ -922,11 +922,11 @@ snapshots:
       rollup: 4.57.1
       tinyglobby: 0.2.15
     optionalDependencies:
-      '@types/node': 24.10.12
+      '@types/node': 24.10.13
       fsevents: 2.3.3
 
-  vitefu@1.1.1(vite@7.3.1(@types/node@24.10.12)):
+  vitefu@1.1.1(vite@7.3.1(@types/node@24.10.13)):
     optionalDependencies:
-      vite: 7.3.1(@types/node@24.10.12)
+      vite: 7.3.1(@types/node@24.10.13)
 
   zimmerframe@1.1.4: {}
