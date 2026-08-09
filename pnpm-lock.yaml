@@ -22,7 +22,7 @@ importers:
         version: 5.56.8
       svelte-check:
         specifier: ^4.7.3
-        version: 4.7.4(picomatch@4.0.5)(svelte@5.56.8)(typescript@6.0.3)
+        version: 4.7.5(picomatch@4.0.5)(svelte@5.56.8)(typescript@6.0.3)
       typescript:
         specifier: ~6.0.2
         version: 6.0.3
@@ -149,8 +149,8 @@ packages:
     peerDependencies:
       acorn: ^8.9.0
 
-  '@sveltejs/load-config@0.2.1':
-    resolution: {integrity: sha512-5m3B2cbqQ4TbwW6Xkh66Ntw6dD7gNc77cCxABTTesWcq9jxIzMgTk97pZx5vEtvQx8iokgi7GIphqZe+PGwcZA==}
+  '@sveltejs/load-config@0.2.2':
+    resolution: {integrity: sha512-K7dsJDQxBOF+f+epuhMactcjK2VP4MRkLKtwSykNtEI+cKVEyzrmmhQ1pmoxI800m4JKcyJ05L2M4yPwAGiBNw==}
     engines: {node: '>= 18.0.0'}
 
   '@sveltejs/vite-plugin-svelte@7.2.0':
@@ -207,8 +207,8 @@ packages:
   esm-env@1.2.2:
     resolution: {integrity: sha512-Epxrv+Nr/CaL4ZcFGPJIYLWFom+YeV1DqMLHJoEd9SYRxNbaFruBwfEX/kkHUJf55j2+TUbmDcmuilbP1TmXHA==}
 
-  esrap@2.3.1:
-    resolution: {integrity: sha512-MXjVkrBAjuwIZ8xq9+a1MOOnLIwANZOx/4gtdWHfSJtXOrUh2QQK2I5mMC3urLli559jTlq2j+kSqht80uRgog==}
+  esrap@2.3.2:
+    resolution: {integrity: sha512-40GyiEJevYKXzYTHtZkFqAgTjLOuFcaXMao8TPyOlnWTlkHDlvZ6mPMJaJyOqVwrVCgomEG1WhJd81w0X+IcCw==}
     peerDependencies:
       '@typescript-eslint/types': ^8.2.0
     peerDependenciesMeta:
@@ -316,8 +316,8 @@ packages:
     resolution: {integrity: sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA==}
     engines: {node: '>=4'}
 
-  nanoid@3.3.17:
-    resolution: {integrity: sha512-xQLf0A3HOMlgHq0n247/LRuAOYmB7dXJ/DvAxGvsSBij45XtBSmQycu+F8ODbHwns/XyFZagyL1+J0Offw1E0g==}
+  nanoid@3.3.18:
+    resolution: {integrity: sha512-DTg4MJbGMWkfi6VZFdNt2/caMbQy4Ou+Op/hJQvGEWcnVfoA1QA+xzRKAzw9jD6+GVOOeYr/mIcuDSdug6F6+w==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
@@ -353,8 +353,8 @@ packages:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
     engines: {node: '>=0.10.0'}
 
-  svelte-check@4.7.4:
-    resolution: {integrity: sha512-IW9ot9YqAoyv8FvyN+eb4ZTe8zgcKZrJLNYU6dzSKkGwEBsSPc4K7lmQ8bKn8W2YMXM6WDfZSSVOaGtekyUfOQ==}
+  svelte-check@4.7.5:
+    resolution: {integrity: sha512-NnkHGCTPH6k4ka1E9IpTuNv40uLArHnX52kLEuaHSGqRlPYTnkbFs529jSWG+y+wDy+v+jA2PQ0soN1umVK+OA==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
     peerDependencies:
@@ -502,7 +502,7 @@ snapshots:
     dependencies:
       acorn: 8.18.0
 
-  '@sveltejs/load-config@0.2.1': {}
+  '@sveltejs/load-config@0.2.2': {}
 
   '@sveltejs/vite-plugin-svelte@7.2.0(svelte@5.56.8)(vite@8.2.1(@types/node@24.13.3))':
     dependencies:
@@ -543,7 +543,7 @@ snapshots:
 
   esm-env@1.2.2: {}
 
-  esrap@2.3.1:
+  esrap@2.3.2:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.5
 
@@ -615,7 +615,7 @@ snapshots:
 
   mri@1.2.0: {}
 
-  nanoid@3.3.17: {}
+  nanoid@3.3.18: {}
 
   obug@2.1.4: {}
 
@@ -625,7 +625,7 @@ snapshots:
 
   postcss@8.5.26:
     dependencies:
-      nanoid: 3.3.17
+      nanoid: 3.3.18
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
@@ -657,10 +657,10 @@ snapshots:
 
   source-map-js@1.2.1: {}
 
-  svelte-check@4.7.4(picomatch@4.0.5)(svelte@5.56.8)(typescript@6.0.3):
+  svelte-check@4.7.5(picomatch@4.0.5)(svelte@5.56.8)(typescript@6.0.3):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
-      '@sveltejs/load-config': 0.2.1
+      '@sveltejs/load-config': 0.2.2
       chokidar: 4.0.3
       fdir: 6.5.0(picomatch@4.0.5)
       picocolors: 1.1.1
@@ -683,7 +683,7 @@ snapshots:
       clsx: 2.1.1
       devalue: 5.9.0
       esm-env: 1.2.2
-      esrap: 2.3.1
+      esrap: 2.3.2
       is-reference: 3.0.3
       locate-character: 3.0.0
       magic-string: 0.30.21
