@@ -11,12 +11,12 @@
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^7.3.1",
-    "@tsconfig/svelte": "^5.0.8",
-    "@types/node": "^24.19.2",
-    "svelte": "^5.57.3",
-    "svelte-check": "^4.7.7",
+    "@tsconfig/svelte": "^5.0.9",
+    "@types/node": "^26.6.6",
+    "svelte": "^5.59.1",
+    "svelte-check": "^4.7.8",
     "typescript": "~6.0.3",
-    "vite": "^8.3.6"
+    "vite": "^8.4.0"
   },
   "packageManager": "pnpm@12.23.0+sha512.02da94ffaf133f46074322afe552f90d40b5f71ae259aefbccdacc5085b1d617e98d65e0131f5748b9b67445978ee5055d7d59a473f1eef0d504854fefcd5975"
 }
